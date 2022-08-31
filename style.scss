@@ -1,29 +1,34 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.navbar-brand{
+
+.navbar-brand {
     height: 100px;
     width: 100px;
-    img{
+    img {
         height: max-content;
         width: max-content;
+    }
 }
-}
-.nav-link{
+
+.nav-link {
     color: red;
     text-align: center;
     font-size: 30px;
     margin-right: 20px;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: rgb(113, 255, 208);
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     color: black;
 }
-.wp{
+
+.wp {
     display: flex;
     align-self: flex-end;
     position: fixed;
@@ -35,7 +40,8 @@
     right: 35px;
     z-index: 2;
 }
-footer{
+
+footer {
     background-color: white;
     height: max-content;
     text-align: center;
@@ -44,89 +50,94 @@ footer{
     position: sticky;
     margin: 0;
     padding: 0;
-    div{
+    div {
         width: 100%;
         padding: 0 0 10px 0;
         flex-wrap: wrap;
         margin: 0;
         padding: 0;
+    }
 }
-}
-.soc{
+.soc {
     display: flex;
     text-align: center;
     margin-bottom: 40px;
-    a{
-        color:#34B7F1;
+    a {
+        color: #34B7F1;
         font-size: 50px;
         padding-left: 10px;
+    }
 }
-}
-.footerMenu{
+.footerMenu {
     display: grid;
     justify-content: center;
-    .footerMenu a{
+    a {
         color: red;
         text-align: right;
+    }
 }
-}
-.footerMenu a:hover{
+
+.footerMenu a:hover {
     color: #34B7F1;
 }
-.mainLacasa{
+.mainLacasa {
     background-image: url(./images/atardecer.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-#demo{
-    padding: 2vw 5vw ;
+
+#demo {
+    padding: 2vw 5vw;
 }
-.carousel-item{
+
+.carousel-item {
     height: 40vw;
-    .carousel-item img{
+    img {
         height: 100%;
         width: 100%;
         object-fit: center;
+    }
 }
-}
-.mainIndex{
+.mainIndex {
     height: 80vh;
     width: 100%;
     background: url(./images/atardecer.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.mainBg{
+.mainBg {
     display: flex;
     justify-content: center;
     padding: 30px 0 0 0;
-    .mainBg iframe{
-        width: 70vw;
-        height: 70vh;
+    iframe {
+    width: 70vw;
+    height: 70vh;
+    }
 }
-}
-.mainUbicacion{
+.mainUbicacion {
     background-image: url(./images/casa2.jpeg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.indicaciones{
+
+.indicaciones {
     background: #4A89F3;
-    .indicaciones h2{
+    h2 {
         font-size: 36px;
+    }
+    p {
+    font-size: 20px;
+    }
 }
-    .indicaciones p{
-        font-size: 20px;
-}
-}
-.ubicacion iframe{
+
+.ubicacion iframe {
     height: 700px;
     margin: 0;
     padding: 0;
 }
-.mainContacto{
+.mainContacto {
     background-image: url(./images/parque.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -136,12 +147,14 @@ footer{
     justify-content: center;
     align-items: center;
 }
-.form{
+
+.form {
     display: flex;
     justify-items: center;
     align-content: center;
 }
-.formConteiner{
+
+.formConteiner {
     background-color: #4A89F3;
     width: fit-content;
     height: fit-content;
@@ -151,4 +164,5 @@ footer{
     text-align: right;
     display: grid;
     border: 5px solid black;
+
 }
