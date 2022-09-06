@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.row {
+  margin-right: 0;
+}
+
 .navbar-brand {
   height: 100px;
   width: 100px;
@@ -99,7 +103,7 @@ footer div {
 .carousel-item img {
   height: 100%;
   width: 100%;
-  object-fit: center;
+  object-fit: cover;
 }
 
 .mainIndex {
