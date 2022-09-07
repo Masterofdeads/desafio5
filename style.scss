@@ -3,12 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-.row{
+
+.row {
     margin-right: 0;
 }
+
 .navbar-brand {
     height: 100px;
     width: 100px;
+
     img {
         height: max-content;
         width: max-content;
@@ -52,6 +55,7 @@ footer {
     position: sticky;
     margin: 0;
     padding: 0;
+
     div {
         width: 100%;
         padding: 0 0 10px 0;
@@ -60,19 +64,23 @@ footer {
         padding: 0;
     }
 }
+
 .soc {
     display: flex;
     text-align: center;
     margin-bottom: 40px;
+
     a {
         color: #34B7F1;
         font-size: 50px;
         padding-left: 10px;
     }
 }
+
 .footerMenu {
     display: grid;
     justify-content: center;
+
     a {
         color: red;
         text-align: right;
@@ -82,6 +90,7 @@ footer {
 .footerMenu a:hover {
     color: #34B7F1;
 }
+
 .mainLacasa {
     background-image: url(./images/atardecer.jpeg);
     background-size: cover;
@@ -94,43 +103,69 @@ footer {
 
 .carousel-item {
     height: 40vw;
+
     img {
         height: 100%;
         width: 100%;
         object-fit: cover;
     }
 }
-.mainIndex {
-    height: 80vh;
-    width: 100%;
-    background: url(./images/atardecer.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .mainBg {
     display: flex;
     justify-content: center;
-    padding: 30px 0 0 0;
+    padding: 30px 0;
+
     iframe {
-    width: 70vw;
-    height: 70vh;
+        width: 70vw;
+        height: 70vh;
     }
 }
-.mainUbicacion {
-    background-image: url(./images/casa2.jpeg);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+// .mainIndex {
+//     height: 80vh;
+//     width: 100%;
+//     background: url(./images/atardecer.jpeg);
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }
+// .mainIsla {
+//     // height: 80vh;
+//     // width: 100%;
+//     // background: url(./images/atardecer.jpeg);
+//     // background-size: cover;
+//     // background-repeat: no-repeat;
+//     @extend .mainIndex;
+//     background: url(./images/casa1.jpeg);
+// }
+// .mainUbicacion {
+//     background-image: url(./images/casa2.jpeg);
+//     width: 100%;
+//     height: 100%;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+@each $img in atardecer , casa1 , casa2 {
+    .mainIndex,
+    .mainIsla,
+    .mainUbicacion {
+        height: 100%;
+        width: 100%;
+        background: url(./images/#{$img}.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 .indicaciones {
     background: #4A89F3;
+
     h2 {
         font-size: 36px;
     }
+
     p {
-    font-size: 20px;
+        font-size: 20px;
     }
 }
 
@@ -139,6 +174,7 @@ footer {
     margin: 0;
     padding: 0;
 }
+
 .mainContacto {
     background-image: url(./images/parque.jpeg);
     background-size: cover;
