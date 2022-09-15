@@ -1,0 +1,31 @@
+@each $img in atardecer , casa1 , casa2 {
+    .mainIndex,
+    .mainIsla,
+    .mainUbicacion {
+        min-height: 82vh;
+        height: 100%;
+        width: 100%;
+        background: url(./images/#{$img}.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.indicaciones {
+    background: #4A89F3;
+
+    h2 {
+        font-size: 36px;
+    }
+
+    p {
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
+.ubicacion iframe {
+    height: 700px;
+    margin: 0;
+    padding: 0;
+}

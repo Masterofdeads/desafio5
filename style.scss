@@ -22,7 +22,8 @@
     color: red;
     text-align: center;
     font-size: 30px;
-    margin-right: 20px;
+    margin: 0 20px;
+
 }
 
 .nav-link:hover {
@@ -86,35 +87,13 @@ footer {
         text-align: right;
     }
 }
-
 .footerMenu a:hover {
     color: #34B7F1;
 }
-
-.mainLacasa {
-    background-image: url(./images/atardecer.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#demo {
-    padding: 2vw 5vw;
-}
-
-.carousel-item {
-    height: 40vw;
-
-    img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-}
-
 .mainBg {
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    padding: 70px 0;
 
     iframe {
         width: 70vw;
@@ -145,63 +124,7 @@ footer {
 //     background-repeat: no-repeat;
 //     background-size: cover;
 // }
-@each $img in atardecer , casa1 , casa2 {
-    .mainIndex,
-    .mainIsla,
-    .mainUbicacion {
-        height: 100%;
-        width: 100%;
-        background: url(./images/#{$img}.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-}
-
-.indicaciones {
-    background: #4A89F3;
-
-    h2 {
-        font-size: 36px;
-    }
-
-    p {
-        padding: 10px;
-        font-size: 20px;
-    }
-}
-
-.ubicacion iframe {
-    height: 700px;
-    margin: 0;
-    padding: 0;
-}
-
-.mainContacto {
-    background-image: url(./images/parque.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.form {
-    display: flex;
-    justify-items: center;
-    align-content: center;
-}
-
-.formConteiner {
-    background-color: #4A89F3;
-    width: fit-content;
-    height: fit-content;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: right;
-    display: grid;
-    border: 5px solid black;
-
-}
+@import "./scss/_contacto";
+@import "./scss/_lacasa";
+@import "./scss/_laisla";
+@import "./scss/_ubicacion";
