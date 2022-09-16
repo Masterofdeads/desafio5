@@ -81,6 +81,7 @@ footer div {
 .footerMenu a {
   color: red;
   text-align: right;
+  text-decoration: none;
 }
 
 .footerMenu a:hover {
@@ -101,11 +102,8 @@ footer div {
   background-image: url(./images/parque.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* height: 80vh; */
+  /* width: 100%; */
 }
 
 .mainLacasa {
