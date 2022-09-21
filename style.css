@@ -49,6 +49,10 @@
   bottom: 35px;
   right: 35px;
   z-index: 2;
+  filter: grayscale(100%);
+}
+.wp:hover {
+  filter: grayscale(0%);
 }
 
 footer {
@@ -61,23 +65,22 @@ footer {
   margin: 0;
   padding: 0;
 }
-footer div {
-  width: 100%;
-  padding: 0 0 10px 0;
-  flex-wrap: wrap;
+.ftlogo{
+  width: 60px;
   margin: 0;
   padding: 0;
 }
-
 .soc {
-  display: flex;
+  display: grid;
+  justify-content: center;
+  padding: 0;
+  padding-top: 40px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .soc a {
   color: white;
   font-size: 50px;
-  padding-left: 10px;
   opacity: 1;
 }
 .soc a:hover{
@@ -89,12 +92,16 @@ footer div {
 
 .footerMenu {
   display: grid;
-  justify-content: center;
+  justify-content: right;
+  padding: 0;
+  margin: 0;
 }
 .footerMenu a {
   color: white;
-  text-align: left;
+  text-align: right;
+  font-size: 18px;
   text-decoration: none;
+  padding-top: 18px;
 }
 
 .footerMenu a:hover {
@@ -135,20 +142,14 @@ footer div {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-#demo {
-  /* padding: 2vw 5vw; */
-  height: 550px;
-}
-
 .carousel-item{
   /* height: 100%; */
 }
-/* .carousel-item img {
-  height: 100%;
+.carousel-item img {
+  height: 600px;
   width: 100%;
   object-fit: cover;
-} */
+}
 
 .mainIndex,
 .mainIsla,
@@ -185,12 +186,14 @@ footer div {
 
 .indicaciones {
   background: #4A89F3;
+  color: white;
 }
 .indicaciones h2 {
   font-size: 36px;
+  margin: 30px;
 }
 .indicaciones p {
-  padding: 10px;
+  padding: 20px;
   font-size: 20px;
 }
 
