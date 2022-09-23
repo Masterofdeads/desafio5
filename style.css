@@ -7,15 +7,18 @@
 .row {
   margin-right: 0;
 }
-.navbar{
+
+.navbar {
   background-color: black;
   margin: 0;
   padding: 0;
 }
+
 .navbar-brand {
   height: 100px;
   width: 100px;
 }
+
 .navbar-brand img {
   height: max-content;
   width: max-content;
@@ -29,7 +32,7 @@
 }
 
 .nav-link:hover {
-  background: linear-gradient(to top left,red, yellow);
+  background: linear-gradient(to top left, red, yellow);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -51,6 +54,7 @@
   z-index: 2;
   filter: grayscale(100%);
 }
+
 .wp:hover {
   filter: grayscale(0%);
 }
@@ -65,11 +69,13 @@ footer {
   margin: 0;
   padding: 0;
 }
-.ftlogo{
+
+.ftlogo {
   width: 60px;
   margin: 0;
   padding: 0;
 }
+
 .soc {
   display: grid;
   justify-content: center;
@@ -78,13 +84,15 @@ footer {
   text-align: center;
   margin-bottom: 20px;
 }
+
 .soc a {
   color: white;
   font-size: 50px;
   opacity: 1;
 }
-.soc a:hover{
-  background: linear-gradient(to top right,red, #4A89F3);
+
+.soc a:hover {
+  background: linear-gradient(to top right, red, #4A89F3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.7;
@@ -96,6 +104,7 @@ footer {
   padding: 0;
   margin: 0;
 }
+
 .footerMenu a {
   color: white;
   text-align: right;
@@ -105,11 +114,12 @@ footer {
 }
 
 .footerMenu a:hover {
-  background: linear-gradient(to top left,yellow, red);
+  background: linear-gradient(to top left, yellow, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.copyright{
+
+.copyright {
   color: white;
 }
 
@@ -118,6 +128,7 @@ footer {
   justify-content: center;
   padding: 70px 0;
 }
+
 .mainBg iframe {
   width: 70vw;
   height: 70vh;
@@ -131,7 +142,8 @@ footer {
   /* height: 80vh; */
   /* width: 100%; */
 }
-.contactanos{
+
+.contactanos {
   border-radius: 5px;
   box-shadow: -10px 2px 10px;
   margin-top: 50px;
@@ -142,13 +154,16 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.carousel-item{
-  /* height: 100%; */
+
+#carouselExampleControlsNoTouching {
+  display: grid;
+  justify-content: center;
 }
+
 .carousel-item img {
-  height: 600px;
-  width: 100%;
-  object-fit: cover;
+  height: 500px;
+  width: auto;
+  object-fit: contain;
 }
 
 .mainIndex,
@@ -188,10 +203,12 @@ footer {
   background: #4A89F3;
   color: white;
 }
+
 .indicaciones h2 {
   font-size: 36px;
   margin: 30px;
 }
+
 .indicaciones p {
   padding: 20px;
   font-size: 20px;
